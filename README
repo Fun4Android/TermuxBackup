@@ -1,66 +1,45 @@
-[SOFTWARE NAME] [SOFTWARE VERSION] :: [BRIEF DESCRIPTION]
-Copyright (C) [YEAR] :: [SOFTWARE DEVELOPER] <[CONTACT INFO]>
+Termux Backup 0.1.0.0 :: Create a list of installed packages and later reinstall them.
+Copyright (C) 2017 :: Shadow Team <Public.ShadowTeam@gmail.com>
 ================
-[SOFTWARE DESCRIPTION]
+Create a list of currently installed packages
+and later Restore all packages from a previously
+created package list.
 
 What's new?
 ------------------
-1.[UPDATE #1] <[DATE RELEASE]>
-      -[UPDATE DESCRIPTION]
+1.Restore packages
 
-2.[UPDATE #2] <[DATE RELEASE]>
-      -[UPDATE DESCRIPTION]
-
-[OTHER UPDATES]
+2.Create a list of currently installed packages.
 
 Full Feature List
 ------------------------
-1.[FEATURE #1]
-      -[FEATURE DESCRIPTION]
+1.Restore packages
 
-2.[FEATURE #2]
-      -[FEATURE DESCRIPTION]
-
-[OTHER FEATURES]
-
-TO-DO List
-------------------------
-1.[TO-DO #1]
-      -[TO-DO DESCRIPTION]
-
-1.[TO-DO #2]
-      -[TO-DO DESCRIPTION]
+2.Create a list of currently installed packages.
 
 License and Copying
 ------------------------
-[CHANGE THE CONTENTS OF THE LICENSE FILE IF YOU DON'T WANT TO USE GNU GENERAL PUBLIC LICENSE VERSION 3.]
-
--[SUMMARY OF LICENSE]
 
 -See LICENSE file.
 
 Credits
 ------------------------
-[CONTRIBUTION] :: [FULL NAME / ORGANIZATION NAME]
-[CONTRIBUTION] :: [FULL NAME / ORGANIZATION NAME]
-[CONTRIBUTION] :: [FULL NAME / ORGANIZATION NAME]
-[CONTRIBUTION] :: [FULL NAME / ORGANIZATION NAME]
-[CONTRIBUTION] :: [FULL NAME / ORGANIZATION NAME]
+Catayao56: Programmer
 
 
 Requirements
 ------------------------
-1.[REQUIREMENT #1]
-2.[REQUIREMENT #2]
-[OTHER REQUIREMENTS]
+1.BASH Shell
+2.APT
+3.DPKG
 
 
 Installing & Running
 ------------------------
-1.[STEP #1]
-      -[STEP #1 DESCRIPTION]
+1.Create a list of currently installed packages:
 
-2.[STEP #2]
-      -[STEP #2 DESCRIPTION]
+                        termux-pkg-backup [FILENAME OF BACKUP FILE TO BE CREATED]
 
-[OTHER STEPS]
+2.Restore all packages from a previously created package list:
+
+                        termux-pkg-restore [FILENAME OF BACKUP FILE TO BE RESTORED]]

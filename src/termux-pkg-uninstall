@@ -1,0 +1,17 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+echo ""
+echo "TERMUX BACKUP"
+echo ""
+echo "Do you really want to proceed?"
+echo "Press enter to proceed;"
+echo "Otherwise, press CTRL+C."
+read whydoyouwanttouninstallme
+echo ""
+echo "Uninstalling..."
+rm '$PREFIX/bin/termux-pkg-backup'
+rm '$PREFIX/bin/termux-pkg-restore'
+rm '$PREFIX/bin/termux-pkg-uninstall'
+echo "Uninstalling... Done!"
+echo ""
+exit 0

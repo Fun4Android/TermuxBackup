@@ -1,0 +1,21 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+echo "TERMUX BACKUP"
+echo "USAGE:"
+echo ""
+echo "Backup:"
+echo "termux-pkg-backup [FILENAME OF BACKUP FILE TO BE CREATED]"
+echo ""
+echo "Restore:"
+echo "termux-pkg-restore [FILENAME OF BACKUP FILE TO BE RESTORED]"
+echo ""
+echo "Uninstall Termux Backup:"
+echo "termux-pkg-uninstall"
+echo ""
+echo ""
+echo ""
+echo "Creating a backup file named '$1'..."
+dpkg --get-selections | cut -f1 > $HOME/.$1
+echo "Creating a backup file named '$1'... Done!"
+echo ""
+exit 0

@@ -1,0 +1,21 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+echo "TERMUX BACKUP"
+echo "USAGE:"
+echo ""
+echo "Backup:"
+echo "termux-pkg-backup [FILENAME OF BACKUP FILE TO BE CREATED]"
+echo ""
+echo "Restore:"
+echo "termux-pkg-restore [FILENAME OF BACKUP FILE TO BE RESTORED]"
+echo ""
+echo "Uninstall Termux Backup:"
+echo "termux-pkg-uninstall"
+echo ""
+echo ""
+echo ""
+echo "Restoring packages listed in backup file named '$1'..."
+xargs -0 apt install -y < <(tr \\n \\0 < $HOME/.$1)
+echo "Restoring packages listed in backup file named '$1'... Done!"
+echo ""
+exit 0
