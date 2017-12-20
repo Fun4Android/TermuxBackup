@@ -1,4 +1,4 @@
-Termux Backup 0.1.0.0 :: Create a list of installed packages and later reinstall them.
+Termux Backup 0.1.1.0 :: Create a list of installed packages and later reinstall them.
 Copyright (C) 2017 :: Shadow Team <Public.ShadowTeam@gmail.com>
 ================
 Create a list of currently installed packages
