@@ -2,21 +2,6 @@
 
 echo ""
 echo "TERMUX BACKUP"
-echo ""
-echo "Installing..."
-apt update -y
-apt install -y bash apt dpkg
-cp termux-pkg-backup $PREFIX/bin/
-cp termux-pkg-restore $PREFIX/bin/
-cp termux-pkg-uninstall $PREFIX/bin/
-cp termux-pkg-delete $PREFIX/bin/
-chmod +x $PREFIX/bin/termux-pkg-backup
-chmod +x $PREFIX/bin/termux-pkg-restore
-chmod +x $PREFIX/bin/termux-pkg-uninstall
-chmod +x $PREFIX/bin/termux-pkg-delete
-echo "Installing... Done!"
-echo ""
-echo "TERMUX BACKUP"
 echo "USAGE:"
 echo ""
 echo "Backup:"
@@ -32,5 +17,9 @@ echo "Uninstall Termux Backup:"
 echo "termux-pkg-uninstall"
 echo ""
 echo ""
+echo ""
+echo "Deleting backup file named '$1'..."
+rm $HOME/.$1.backupfile
+echo "Deleting backup file named '$1'... Done!"
 echo ""
 exit 0

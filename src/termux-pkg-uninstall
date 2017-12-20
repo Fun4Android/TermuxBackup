@@ -9,9 +9,11 @@ echo "Otherwise, press CTRL+C."
 read whydoyouwanttouninstallme
 echo ""
 echo "Uninstalling..."
-rm '$PREFIX/bin/termux-pkg-backup'
-rm '$PREFIX/bin/termux-pkg-restore'
-rm '$PREFIX/bin/termux-pkg-uninstall'
+rm $PREFIX/bin/termux-pkg-backup
+rm $PREFIX/bin/termux-pkg-delete
+rm $PREFIX/bin/termux-pkg-restore
+rm $PREFIX/bin/termux-pkg-uninstall
+rm $HOME/.*.backupfile
 echo "Uninstalling... Done!"
 echo ""
 exit 0
