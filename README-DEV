@@ -1,0 +1,34 @@
+README for Developers
+
+1.How the program is structured?
+
+      -[HOW THE PROGRAM IS STRUCTURED?]
+
+      -
+
+2.Comment Tags
+
+      -Comment tags are used to easily understand
+       the logic of a program. The comment tags
+       labels the code if it has errors, needs to
+       be frequently updated, where you left off,
+       and more.
+           
+	   -Comment tags definitions and examples
+
+	        DEV0001 : Requires Attention Tag
+		DEV0002 : Frequently Update Tag
+		DEV0003 : Where You Left Your Code (WYLYC) Tag
+		DEV0004 : Under Construction Tag
+		DEV0005 : Mentioned line is for debugging purposes.
+		          Comment the mentioned line if not debugging.
+		DEV0006 : Feature request Tag
+
+	   -Example:
+
+	        #include <stdio.h>
+		...
+		        //Below converts the character to an integer.
+		        printf("ASCII of %c is %d.", char, dec);
+			//DEV0003: Continue the code below
+			scanf(" %c

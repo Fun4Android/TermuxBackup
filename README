@@ -1,0 +1,66 @@
+[SOFTWARE NAME] [SOFTWARE VERSION] :: [BRIEF DESCRIPTION]
+Copyright (C) [YEAR] :: [SOFTWARE DEVELOPER] <[CONTACT INFO]>
+================
+[SOFTWARE DESCRIPTION]
+
+What's new?
+------------------
+1.[UPDATE #1] <[DATE RELEASE]>
+      -[UPDATE DESCRIPTION]
+
+2.[UPDATE #2] <[DATE RELEASE]>
+      -[UPDATE DESCRIPTION]
+
+[OTHER UPDATES]
+
+Full Feature List
+------------------------
+1.[FEATURE #1]
+      -[FEATURE DESCRIPTION]
+
+2.[FEATURE #2]
+      -[FEATURE DESCRIPTION]
+
+[OTHER FEATURES]
+
+TO-DO List
+------------------------
+1.[TO-DO #1]
+      -[TO-DO DESCRIPTION]
+
+1.[TO-DO #2]
+      -[TO-DO DESCRIPTION]
+
+License and Copying
+------------------------
+[CHANGE THE CONTENTS OF THE LICENSE FILE IF YOU DON'T WANT TO USE GNU GENERAL PUBLIC LICENSE VERSION 3.]
+
+-[SUMMARY OF LICENSE]
+
+-See LICENSE file.
+
+Credits
+------------------------
+[CONTRIBUTION] :: [FULL NAME / ORGANIZATION NAME]
+[CONTRIBUTION] :: [FULL NAME / ORGANIZATION NAME]
+[CONTRIBUTION] :: [FULL NAME / ORGANIZATION NAME]
+[CONTRIBUTION] :: [FULL NAME / ORGANIZATION NAME]
+[CONTRIBUTION] :: [FULL NAME / ORGANIZATION NAME]
+
+
+Requirements
+------------------------
+1.[REQUIREMENT #1]
+2.[REQUIREMENT #2]
+[OTHER REQUIREMENTS]
+
+
+Installing & Running
+------------------------
+1.[STEP #1]
+      -[STEP #1 DESCRIPTION]
+
+2.[STEP #2]
+      -[STEP #2 DESCRIPTION]
+
+[OTHER STEPS]
