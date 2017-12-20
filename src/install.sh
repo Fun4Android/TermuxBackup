@@ -6,12 +6,12 @@ echo ""
 echo "Installing..."
 apt update -y
 apt install -y bash apt dpkg
-cp 'termux-pkg-backup' '$PREFIX/bin/'
-cp 'termux-pkg-restore' '$PREFIX/bin/'
-cp 'termux-pkg-uninstall' '$PREFIX/bin/'
-chmod +x '$PREFIX/bin/termux-pkg-backup'
-chmod +x '$PREFIX/bin/termux-pkg-restore'
-chmod +x '$PREFIX/bin/termux-pkg-uninstall'
+cp termux-pkg-backup $PREFIX/bin/
+cp termux-pkg-restore $PREFIX/bin/
+cp termux-pkg-uninstall $PREFIX/bin/
+chmod +x $PREFIX/bin/termux-pkg-backup
+chmod +x $PREFIX/bin/termux-pkg-restore
+chmod +x $PREFIX/bin/termux-pkg-uninstall
 echo "Installing... Done!"
 echo ""
 echo "USAGE:"
