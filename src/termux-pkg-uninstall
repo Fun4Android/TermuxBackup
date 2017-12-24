@@ -13,6 +13,7 @@ rm $PREFIX/bin/termux-pkg-backup
 rm $PREFIX/bin/termux-pkg-delete
 rm $PREFIX/bin/termux-pkg-restore
 rm $PREFIX/bin/termux-pkg-uninstall
+rm $PREFIX/bin/full-backup
 rm $HOME/.*.backupfile
 echo "Uninstalling... Done!"
 echo ""

@@ -15,12 +15,19 @@ echo "command 'full-backup' started..." >> $HOME/0/external-1/termux-backups/log
 date >> $HOME/0/external-1/termux-backups/log.txt
 cp -r $HOME $HOME/0/external-1/termux-backups
 echo ""
-echo "Backup finished on:"
-date
 echo "command 'full-backup' finished..." >> $HOME/0/external-1/termux-backups/log.txt
+date >> $HOME/0/external-1/termux-backups/log.txt
+echo ""
+echo "command 'termux-pkg-backup' started..." >> $HOME/0/external-1/termux-backups/log.txt
+date >> $HOME/0/external-1/termux-backups/log.txt
+dpkg --get-selections | cut -f1 > $HOME/0/external-1/termux-backups/termux-packages.txt
+echo "command 'termux-pkg-backup' finished..." >> $HOME/0/external-1/termux-backups/log.txt
 date >> $HOME/0/external-1/termux-backups/log.txt
 echo "-----------------------------------" >> $HOME/0/external-1/termux-backups/log.txt
 echo ""
 echo "Backing up $HOME... Done!"
+echo ""
+echo "Backup finished on:"
+date
 echo ""
 exit 0

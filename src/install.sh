@@ -10,10 +10,12 @@ cp termux-pkg-backup $PREFIX/bin/
 cp termux-pkg-restore $PREFIX/bin/
 cp termux-pkg-uninstall $PREFIX/bin/
 cp termux-pkg-delete $PREFIX/bin/
+cp full-backup $PREFIX/bin/
 chmod +x $PREFIX/bin/termux-pkg-backup
 chmod +x $PREFIX/bin/termux-pkg-restore
 chmod +x $PREFIX/bin/termux-pkg-uninstall
 chmod +x $PREFIX/bin/termux-pkg-delete
+chmod +x $PREFIX/bin/full-backup
 echo "Installing... Done!"
 echo ""
 echo "TERMUX BACKUP"
@@ -30,6 +32,9 @@ echo "termux-pkg-delete [FILENAME OF BACKUP FILE TO BE DELETED]"
 echo ""
 echo "Uninstall Termux Backup:"
 echo "termux-pkg-uninstall"
+echo ""
+echo "Perform a full backup:"
+echo "full-backup"
 echo ""
 echo ""
 echo ""
