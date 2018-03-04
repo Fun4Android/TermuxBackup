@@ -33,7 +33,7 @@ echo ""
 mkdir $HOME/0/external-1/termux-backups
 echo "command 'full-backup' started..." >> $HOME/0/external-1/termux-backups/log.txt
 date >> $HOME/0/external-1/termux-backups/log.txt
-cp -r $HOME $HOME/0/external-1/termux-backups
+tar -cf $HOME/0/external-1/termux-backups/home.tar $HOME
 echo ""
 echo "command 'full-backup' finished..." >> $HOME/0/external-1/termux-backups/log.txt
 date >> $HOME/0/external-1/termux-backups/log.txt
